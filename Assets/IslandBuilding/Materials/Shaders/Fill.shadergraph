@@ -1364,7 +1364,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "3128e104fbb741cab4c4390efbca31d9",
     "m_Id": 0,
-    "m_DisplayName": "EdgeColor",
+    "m_DisplayName": "Edge Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1389,7 +1389,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "315c80d392db46e7952a1b5f9f9da1d4",
     "m_Id": 0,
-    "m_DisplayName": "OffColor",
+    "m_DisplayName": "Off Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1571,7 +1571,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "3fbf287f6540412abf64fa5ca27f357d",
     "m_Id": 0,
-    "m_DisplayName": "EdgeWidth",
+    "m_DisplayName": "Edge Width",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1659,7 +1659,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "43e7186fb95d460a862d94dc5a628de4",
     "m_Id": 0,
-    "m_DisplayName": "EdgeColor",
+    "m_DisplayName": "Edge Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2136,10 +2136,10 @@
     "m_Guid": {
         "m_GuidSerialized": "34b6c62c-54b6-4732-982b-f0a7cf5756c0"
     },
-    "m_Name": "OffColor",
+    "m_Name": "Off Color",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "OffColor",
-    "m_DefaultReferenceName": "_OffColor",
+    "m_RefNameGeneratedByDisplayName": "Off Color",
+    "m_DefaultReferenceName": "_Off_Color",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2149,9 +2149,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.5,
-        "g": 0.5,
-        "b": 0.5,
+        "r": 0.15000000596046449,
+        "g": 0.15000000596046449,
+        "b": 0.15000000596046449,
         "a": 1.0
     },
     "isMainColor": false,
@@ -2268,7 +2268,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "6d5ace950a6f421aba5647adb4bfc129",
     "m_Id": 0,
-    "m_DisplayName": "FillProgress",
+    "m_DisplayName": "Fill Progress",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2340,7 +2340,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "70c75ac70c22450ba563a81a891ac01c",
     "m_Id": 0,
-    "m_DisplayName": "OffColor",
+    "m_DisplayName": "Off Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2412,7 +2412,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "8493125bbecb4bc999be6b25b09666fb",
     "m_Id": 0,
-    "m_DisplayName": "FillProgress",
+    "m_DisplayName": "Fill Progress",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2661,10 +2661,10 @@
     "m_Guid": {
         "m_GuidSerialized": "17acd71d-89f6-4a17-9c66-19e73c8a2765"
     },
-    "m_Name": "FillProgress",
+    "m_Name": "Fill Progress",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "FillProgress",
-    "m_DefaultReferenceName": "_FillProgress",
+    "m_RefNameGeneratedByDisplayName": "Fill Progress",
+    "m_DefaultReferenceName": "_Fill_Progress",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3366,10 +3366,10 @@
     "m_Guid": {
         "m_GuidSerialized": "9e32487e-c5e7-40ec-a76d-dcadd361702d"
     },
-    "m_Name": "EdgeWidth",
+    "m_Name": "Edge Width",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "EdgeWidth",
-    "m_DefaultReferenceName": "_EdgeWidth",
+    "m_RefNameGeneratedByDisplayName": "Edge Width",
+    "m_DefaultReferenceName": "_Edge_Width",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3391,7 +3391,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b699d24b96e04ea4bb66e1561b3208e2",
     "m_Id": 0,
-    "m_DisplayName": "EdgeWidth",
+    "m_DisplayName": "Edge Width",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3480,10 +3480,10 @@
     "m_Guid": {
         "m_GuidSerialized": "5d308a05-a3f7-4bc8-ad90-2e26c4c473ad"
     },
-    "m_Name": "EdgeColor",
+    "m_Name": "Edge Color",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "EdgeColor",
-    "m_DefaultReferenceName": "_EdgeColor",
+    "m_RefNameGeneratedByDisplayName": "Edge Color",
+    "m_DefaultReferenceName": "_Edge_Color",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4145,10 +4145,10 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "5e2cc919c67e4c18b0c6e2cbcfd66275"
+            "m_Id": "d1038625a6b2435692e70c91a241c3da"
         },
         {
-            "m_Id": "d1038625a6b2435692e70c91a241c3da"
+            "m_Id": "5e2cc919c67e4c18b0c6e2cbcfd66275"
         },
         {
             "m_Id": "4a7b662e7b5c4fc4be02c223f412a7c1"
@@ -4157,16 +4157,16 @@
             "m_Id": "8e6c558e06fb42ee81e8f5f9a52581da"
         },
         {
-            "m_Id": "05683a517be0465aa3e0c116d17584d9"
-        },
-        {
-            "m_Id": "25ac0094b7aa4b6c838369ff10569e77"
-        },
-        {
             "m_Id": "b9dd42bb4c514e6a8508623ca67c3316"
         },
         {
             "m_Id": "b5bdc5f7828443f5a27f27bb22143f8e"
+        },
+        {
+            "m_Id": "05683a517be0465aa3e0c116d17584d9"
+        },
+        {
+            "m_Id": "25ac0094b7aa4b6c838369ff10569e77"
         }
     ]
 }

@@ -28,14 +28,14 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _EdgeWidth: 0.1
-    - _FillProgress: 0.532
-    - _Height: 21.34
+    - _Edge_Width: 0.1
+    - _Fill_Progress: 0
+    - _Height: 0
     - _Metalic: 0
     - _Smoothness: 0
     m_Colors:
-    - _EdgeColor: {r: 1, g: 0.9555494, b: 0, a: 1}
-    - _OffColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Edge_Color: {r: 1, g: 0.9555494, b: 0, a: 1}
+    - _Off_Color: {r: 0.14999998, g: 0.14999998, b: 0.14999998, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2008811947887271123
 MonoBehaviour:
