@@ -2,27 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildingProgress : MonoBehaviour
+namespace Construction
 {
-    [SerializeField] private BuildingMaterials buildingMaterials;
-    [SerializeField] private BuildingEffect buildingEffect;
-    [SerializeField][Range(0, 1)] private float fillPercent;
-
-    private void OnValidate()
+    public class BuildingProgress : MonoBehaviour
     {
-        Fill();
-    }
+        [SerializeField] private BuildingEffect buildingEffect;
+        [SerializeField] private BuildingMaterials buildingMaterials;
+        [SerializeField][Range(0, 1)] private float fillPercent;
 
-    [ContextMenu(nameof(Init))]
-    public void Init()
-    {
-        buildingMaterials.Setup();
-    }
+        public bool IsDone
+        {
+            get => fillPercent >= 1f;
+        }
 
-    public void Fill()
-    {
-        buildingMaterials.UpdateFillMaterials(fillPercent);
+        [ContextMenu(nameof(GetBuidingScript))]
+        private void GetBuidingScript()
+        {
+            buildingEffect = GetComponent<BuildingEffect>();
+            buildingMaterials = GetComponent<BuildingMaterials>();
+        }
 
-        buildingEffect.PlayBounce();
+#if UNITY_EDITOR
+        private void OnValidate()
+        {
+            Fill(fillPercent);
+        }
+#endif
+
+        [ContextMenu(nameof(Init))]
+        public void Init()
+        {
+            buildingMaterials.Setup();
+        }
+
+        public void Fill(float fillPercent)
+        {
+            if (fillPercent > 1f || fillPercent < 0f)
+                return;
+
+            this.fillPercent = fillPercent;
+            buildingMaterials.UpdateFillMaterials(fillPercent);
+            buildingEffect.PlayBounce();
+        }
     }
 }
