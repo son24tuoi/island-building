@@ -14,11 +14,6 @@ namespace Construction
 
         private int _amountMaterials;
 
-        public Mesh Mesh
-        {
-            get => meshFilter.mesh;
-        }
-
         [ContextMenu(nameof(GetElements))]
         private void GetElements()
         {
@@ -30,7 +25,15 @@ namespace Construction
         public void Setup()
         {
             _amountMaterials = mainRenderer.materials.Length;
-            UpdateHeightMaterials(Mesh.bounds.center.y * 2);
+            UpdateHeightMaterials(GetHeightMesh());
+        }
+
+        public float GetHeightMesh()
+        {
+            if (meshFilter == null)
+                return 0f;
+
+            return meshFilter.mesh.bounds.center.y * 2;
         }
 
         public void UpdateFillMaterials(float fillPercent)
