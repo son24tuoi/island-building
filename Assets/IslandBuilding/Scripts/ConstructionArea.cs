@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Construction.Building;
 
 namespace Construction
 {
     public class ConstructionArea : MonoBehaviour
     {
+        [Header("Elements")]
         [SerializeField] private BuildingProgress[] buildingProgressArray;
         [SerializeField] private DecorationObject[] decorationObjects;
 

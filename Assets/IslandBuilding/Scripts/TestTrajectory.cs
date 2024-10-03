@@ -17,7 +17,6 @@ namespace Construction
         [SerializeField] private float h = 5f;
         [SerializeField] private float t1 = 0.5f;
         [SerializeField] private float t2 = 0.5f;
-        [SerializeField] private float angle = 30f;
 
         [SerializeField] private float g;
         private Vector3 _startPos;
